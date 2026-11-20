@@ -2,6 +2,16 @@
   "name": "website",
   "compatibility_date": "2026-11-20",
   "assets": {
-    "directory": "./"
+    "directory": "./",
+    "exclude": [
+      "backend/**",
+      "node_modules/**",
+      ".git/**",
+      ".env*",
+      "package.json",
+      "package-lock.json",
+      "README.md",
+      "wrangler.jsonc"
+    ]
   }
 }
